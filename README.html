@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -396,26 +396,26 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="brain-encoding-decoding">
 <h1>brain_encoding_decoding<a class="headerlink" href="#brain-encoding-decoding" title="Link to this heading">#</a></h1>
-<p><a class="reference external" href="https://mybinder.org/v2/gh/main-educational/brain_decoding/main?labpath=notebooks%2Fmultiple_decoders_haxby_tutorial.ipynb"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a></p>
-<p>This is a jupyter book presenting an introduction to brain encoding and decoding using python. It is rendered on <a class="reference external" href="https://main-educational.github.io/brain_encoding_decoding/intro.html">main-educational.github.io/brain_encoding_decoding</a>. See the introduction of the jupyter book for more details, and acknowledgements.</p>
+<p><a class="reference external" href="https://mybinder.org/v2/gh/srastegarnia/brain_decoding_tutorial_MAIN2021/main?labpath=notebooks%2Fmultiple_decoders_haxby_tutorial.ipynb"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a></p>
+<p>This is a jupyter book presenting an introduction to brain encoding and decoding using python. It is rendered on <a class="reference external" href="https://srastegarnia.github.io/brain_decoding_tutorial_MAIN2021">srastegarnia.github.io/brain_decoding_tutorial_MAIN2021</a>.</p>
 <section id="build-the-book">
 <h2>Build the book<a class="headerlink" href="#build-the-book" title="Link to this heading">#</a></h2>
 <p>If you want to build the book locally:</p>
 <ul class="simple">
 <li><p>Clone this repository</p></li>
 <li><p>Run <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-r</span> <span class="pre">binder/requirements.txt</span></code> (it is recommended to run this command in a virtual environment)</p></li>
-<li><p>For a clean build, remove <code class="docutils literal notranslate"><span class="pre">content/_build/</span></code></p></li>
-<li><p>Run <code class="docutils literal notranslate"><span class="pre">jb</span> <span class="pre">build</span> <span class="pre">content/</span></code></p></li>
+<li><p>For a clean build, remove <code class="docutils literal notranslate"><span class="pre">_build/</span></code></p></li>
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">jupyter-book</span> <span class="pre">build</span> <span class="pre">.</span></code></p></li>
 </ul>
-<p>An html version of the jupyter book will be automatically generated in the folder <code class="docutils literal notranslate"><span class="pre">content/_build/html/</span></code>.</p>
+<p>An html version of the jupyter book will be automatically generated in the folder <code class="docutils literal notranslate"><span class="pre">_build/html/</span></code>.</p>
 </section>
 <section id="hosting-the-book">
 <h2>Hosting the book<a class="headerlink" href="#hosting-the-book" title="Link to this heading">#</a></h2>
-<p>The html version of the book is hosted on the <code class="docutils literal notranslate"><span class="pre">gh-pages</span></code> branch of this repo. Navigate to your local build and run,</p>
+<p>The html version of the book is hosted on the <code class="docutils literal notranslate"><span class="pre">gh-pages</span></code> branch of this repo. Navigate to your local build and run:</p>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">ghp-import</span> <span class="pre">-n</span> <span class="pre">-p</span> <span class="pre">-f</span> <span class="pre">content/_build/html</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ghp-import</span> <span class="pre">-n</span> <span class="pre">-p</span> <span class="pre">-f</span> <span class="pre">_build/html</span></code></p></li>
 </ul>
-<p>This will automatically push your build to the <code class="docutils literal notranslate"><span class="pre">gh-pages</span></code> branch. More information on this hosting process can be found <a class="reference external" href="https://jupyterbook.org/publish/gh-pages.html#manually-host-your-book-with-github-pages">here</a>.</p>
+<p>This will automatically push your build to the <code class="docutils literal notranslate"><span class="pre">gh-pages</span></code> branch. More information on this hosting process can be found <a class="reference external" href="https://jupyterbook.org/publish/gh-pages.html">here</a>.</p>
 </section>
 </section>
 
